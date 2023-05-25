@@ -12,7 +12,7 @@ class ApplicationClass:Application() {
     override fun onCreate() {
         super.onCreate()
         // Required initialization logic here!
-        val moEngage = MoEngage.Builder(this, "1SCFO3OHU33EZUMDATWHJO36", DataCenter.DATA_CENTER_1)
+        val moEngage = MoEngage.Builder(this, "2877NHMD0TOHATHC6NNHDERW", DataCenter.DATA_CENTER_1)
             .configureNotificationMetaData(NotificationConfig(R.drawable.small_icon, R.drawable.small_icon))
             .configureLogs(LogConfig(level = VERBOSE))
             .build()

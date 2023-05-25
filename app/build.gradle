@@ -50,4 +50,5 @@ dependencies {
     implementation("com.moengage:moe-android-sdk:12.8.00")
     implementation("com.google.android.gms:play-services-ads-identifier:18.0.1")
     implementation("com.moengage:inapp:6.7.0")
+    implementation("com.moengage:cards-ui:1.4.0")
 }
